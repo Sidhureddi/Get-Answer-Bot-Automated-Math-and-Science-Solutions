@@ -1,0 +1,7 @@
+beautifulsoup4
+boto3
+certifi
+requests
+telebot
+urllib3
+flask
