@@ -15,7 +15,7 @@ import boto3, secrets
 #from webserver import keep_alive
 
 # Replace 'YOUR_TOKEN' with the token you received from BotFather
-TOKEN = '6708128584:AAGYjiBQQ14Dq0RyD2N76TJvEwz4eaSYYq8'
+TOKEN = 'YOUR_TOKEN'
 bot = telebot.TeleBot(TOKEN)
 
 # ADMIN ID
