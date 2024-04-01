@@ -1,0 +1,46 @@
+# Get Answer Bot
+
+This is a Telegram bot designed to provide solutions to math and science problems using image recognition technology. Users can simply take a photo of their problem and send it to the bot, and it will respond with the solution.
+
+## Features
+
+- **Image Recognition**: Utilizes OCR (Optical Character Recognition) to extract text from images of math or science problems.
+- **Problem Upload**: Allows users to upload images containing math or science problems directly to the bot.
+- **Solution Generation**: Generates solutions to the uploaded problems using advanced algorithms.
+- **Telegram Integration**: Seamlessly integrates with Telegram to provide an easy-to-use interface for users.
+
+## How to Use
+
+1. **Start the Bot**: Start the bot by initiating a chat with it on Telegram.
+2. **Send Image**: Take a clear photo of your math or science problem and send it to the bot.
+3. **Receive Solution**: The bot will analyze the image, generate a solution, and send it back to you.
+
+## Commands
+
+- `/get`: Get information about your points and subscription status.
+- `/give`: Admin command to give points to users.
+- `/del`: Admin command to delete points of a user.
+- `/log`: Retrieve the error log file.
+- `/payment`: Get payment instructions.
+- `/solve`: Initiate the process to solve a hand-texted question.
+
+## Setup
+
+To set up this bot, follow these steps:
+
+1. Clone the repository.
+2. Install the required dependencies (`requirements.txt`).
+3. Obtain the necessary API tokens and keys (Telegram token, AWS S3 credentials, etc.).
+4. Configure the bot by replacing placeholder values with your tokens and keys in the code.
+5. Deploy the bot on your preferred hosting service (AWS, Heroku, etc.).
+6. Start the bot and begin using it on Telegram.
+
+## Contributors
+
+- [Your Name](https://github.com/yourusername)
+- [Contributor 1](https://github.com/contributor1)
+- [Contributor 2](https://github.com/contributor2)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
