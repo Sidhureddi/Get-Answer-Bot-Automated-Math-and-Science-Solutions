@@ -15,11 +15,11 @@ import boto3, secrets
 #from webserver import keep_alive
 
 # Replace 'YOUR_TOKEN' with the token you received from BotFather
-TOKEN = 'YOUR_TOKEN'
+TOKEN = '7148616632:AAHGwbdaobbw0bLbbFireApyqQq4xtAQdEE'
 bot = telebot.TeleBot(TOKEN)
 
 # ADMIN ID
-sudos = [2110818173]
+sudos = [5511507580]
 
 # Configure logging to save errors to a file
 logging.basicConfig(filename='error.log', level=logging.ERROR)
